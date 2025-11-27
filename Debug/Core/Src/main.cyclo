@@ -1,0 +1,11 @@
+../Core/Src/main.c:115:13:uart_print	1
+../Core/Src/main.c:126:5:main	2
+../Core/Src/main.c:203:6:SystemClock_Config	3
+../Core/Src/main.c:245:13:MX_CAN1_Init	2
+../Core/Src/main.c:287:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:317:13:MX_GPIO_Init	1
+../Core/Src/main.c:354:13:VehicleTask	1
+../Core/Src/main.c:379:13:CliTask	1
+../Core/Src/main.c:394:13:CanRxTask	3
+../Core/Src/main.c:431:6:StartDefaultTask	1
+../Core/Src/main.c:446:6:Error_Handler	1

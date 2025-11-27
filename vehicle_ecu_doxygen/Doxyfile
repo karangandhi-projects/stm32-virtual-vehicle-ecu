@@ -1,0 +1,40 @@
+# Doxyfile for STM32 Virtual Vehicle ECU (FreeRTOS + CAN + CLI)
+# Minimal, C-focused configuration
+
+PROJECT_NAME           = "STM32 Virtual Vehicle ECU"
+PROJECT_BRIEF          = "Virtual automotive ECU on STM32F446RE with FreeRTOS, CAN, and UART CLI"
+OUTPUT_DIRECTORY       = docs_doxygen
+CREATE_SUBDIRS         = YES
+
+# Input
+INPUT                  = Core Inc Docs
+FILE_PATTERNS          = *.c *.h *.md
+RECURSIVE              = YES
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+EXTRACT_LOCAL_CLASSES  = NO
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+OPTIMIZE_OUTPUT_FOR_CPLUSPLUS = NO
+
+# Documentation formatting
+GENERATE_LATEX         = NO
+GENERATE_RTF           = NO
+GENERATE_HTML          = YES
+GENERATE_TREEVIEW      = YES
+HTML_DYNAMIC_SECTIONS  = YES
+
+MARKDOWN_SUPPORT       = YES
+USE_MDFILE_AS_MAINPAGE = docs/doxygen_mainpage.md
+
+# Warnings
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+
+# Diagrams (can be enabled later if Graphviz is installed)
+HAVE_DOT               = NO
+
+QUIET                  = NO

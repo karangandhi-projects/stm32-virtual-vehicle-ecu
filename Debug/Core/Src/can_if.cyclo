@@ -1,0 +1,10 @@
+../Core/Src/can_if.c:25:13:can_uart_print	1
+../Core/Src/can_if.c:45:19:CAN_IF_Init	5
+../Core/Src/can_if.c:125:19:CAN_IF_SendTelemetry	3
+../Core/Src/can_if.c:186:6:CAN_IF_SetLogging	2
+../Core/Src/can_if.c:191:20:CAN_IF_GetRxQueueHandle	1
+../Core/Src/can_if.c:200:6:CAN_IF_ProcessRxMsg	4
+../Core/Src/can_if.c:232:6:HAL_CAN_RxFifo0MsgPendingCallback	4
+../Core/Src/can_if.c:266:6:HAL_CAN_TxMailbox0CompleteCallback	1
+../Core/Src/can_if.c:271:6:HAL_CAN_TxMailbox1CompleteCallback	1
+../Core/Src/can_if.c:276:6:HAL_CAN_TxMailbox2CompleteCallback	1

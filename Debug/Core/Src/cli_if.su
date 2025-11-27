@@ -1,0 +1,6 @@
+../Core/Src/cli_if.c:36:13:cli_uart_print	24	static
+../Core/Src/cli_if.c:42:13:cli_push	24	static
+../Core/Src/cli_if.c:54:13:cli_handle_char	192	static
+../Core/Src/cli_if.c:165:6:CLI_IF_Init	16	static
+../Core/Src/cli_if.c:180:6:CLI_IF_Task	16	static
+../Core/Src/cli_if.c:195:6:HAL_UART_RxCpltCallback	16	static

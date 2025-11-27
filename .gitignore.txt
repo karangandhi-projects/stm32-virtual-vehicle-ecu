@@ -1,0 +1,27 @@
+# Build output
+Debug/
+Release/
+*.o
+*.map
+*.lst
+*.axf
+*.elf
+*.bin
+*.hex
+
+# IDE metadata caches
+.settings/
+.metadata/
+.vscode/
+.idea/
+
+# STM32CubeIDE backups
+*.launch
+*.log
+
+# Doxygen output
+docs_doxygen/
+
+# OS cruft
+.DS_Store
+Thumbs.db

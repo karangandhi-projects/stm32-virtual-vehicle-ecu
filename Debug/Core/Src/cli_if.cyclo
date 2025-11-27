@@ -1,0 +1,6 @@
+../Core/Src/cli_if.c:36:13:cli_uart_print	2
+../Core/Src/cli_if.c:42:13:cli_push	2
+../Core/Src/cli_if.c:54:13:cli_handle_char	15
+../Core/Src/cli_if.c:165:6:CLI_IF_Init	2
+../Core/Src/cli_if.c:180:6:CLI_IF_Task	2
+../Core/Src/cli_if.c:195:6:HAL_UART_RxCpltCallback	2

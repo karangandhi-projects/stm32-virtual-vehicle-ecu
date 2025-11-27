@@ -1,0 +1,5 @@
+../Core/Src/vehicle.c:9:14:clamp_f	24	static
+../Core/Src/vehicle.c:16:6:Vehicle_Init	16	static
+../Core/Src/vehicle.c:25:6:Vehicle_Update	24	static
+../Core/Src/vehicle.c:64:6:Vehicle_SetTargetSpeed	16	static
+../Core/Src/vehicle.c:72:6:Vehicle_Force	24	static

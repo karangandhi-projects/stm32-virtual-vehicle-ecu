@@ -1,0 +1,3 @@
+# 🚗 STM32 Virtual Vehicle ECU (FreeRTOS + CAN + CLI)
+Version v2.3.0
+...
